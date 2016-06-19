@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover></cover>
+  <links></links>
+  <punktwertungen>
+    <Unterhaltungswert val="0" note=""></Unterhaltungswert>
+    <Pornofaktor val="0" note=""></Pornofaktor>
+    <Gewaltdarstellung val="0" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="0" note=""></Gewaltverherrlichung>
+    <Niveau val="0" note=""></Niveau>
+    <Sexismus val="0" note=""></Sexismus>
+    <Professionalität val="0" note=""></Professionalität>
+    <Realismus val="0" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>unbekannt</titel>
+    <originaltitel>unbekannt</originaltitel>
+    <land>unbekannt</land>
+    <jahr>0</jahr>
+    <genre>unbekannt</genre>
+    <fsk>unbekannt</fsk>
+    <rss>Nichts Neues.</rss>
+    <handlung>Dem Publikum ist keine aufgefallen.</handlung>
+    <technisch>Dem Publikum ist nichts aufgefallen.</technisch>
+    <inhalt>Dem Publikum ist nichts aufgefallen.</inhalt>
+    <wissenschaft>Dem Publikum ist nichts aufgefallen.</wissenschaft>
+    <bemerkungen>Dem Publikum erscheint nichts bemerkenswert.</bemerkungen>
+    <bild>Dem Publikum ist keines aufgefallen.</bild>
+  </textfelder>
+  <zitate></zitate>
+</bmovie>

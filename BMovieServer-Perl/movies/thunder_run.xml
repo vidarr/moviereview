@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>thunder_run.jpg</cover>
+  <links></links>
+  <punktwertungen>
+    <Unterhaltungswert val="3" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="2" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="1" note=""></Gewaltverherrlichung>
+    <Niveau val="2" note=""></Niveau>
+    <Sexismus val="1" note=""></Sexismus>
+    <Professionalität val="4" note=""></Professionalität>
+    <Realismus val="2" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Thunder Run</titel>
+    <originaltitel>Thunder Run</originaltitel>
+    <land>USA</land>
+    <jahr>1985</jahr>
+    <genre>Action</genre>
+    <fsk>12</fsk>
+    <rss>Nichts Neues.</rss>
+    <handlung>Zu diesem Film gibt es noch keine Handlungszusammenfassung.</handlung>
+    <technisch>keine gefunden.</technisch>
+    <inhalt>Raketen sind nach Abschuss wieder da; Verhalten der Regierung ist seltsam; Terroristen führen zahllose Angriffe durch anstatt einmal richtig zuzuschlagen.</inhalt>
+    <wissenschaft>Laserstrahlen, die alles in Stücke schneiden sollen treffen nichts; Reifen werden weder von Granaten noch von Raketen zerstört.</wissenschaft>
+    <bemerkungen>Hacker kommt ziemlich einfach in Regierungscomputer Zitat über die Wüste von Nevada: " Das sieht ja aus wie in Sibirien."</bemerkungen>
+    <bild>Inkompetente Regierungsvertreter.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="odd">über die Wüste von Nevada: " Das sieht ja aus wie in Sibirien."</zitat>
+  </zitate>
+</bmovie>

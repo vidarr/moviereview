@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>contact_high.jpg</cover>
+  <links>
+    <link typ="IMDB(De)">http://www.imdb.de/title/tt0780002/</link>
+    <link typ="Wiki(De)">http://de.wikipedia.org/wiki/Contact_High</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="5" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="1" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="2" note=""></Gewaltverherrlichung>
+    <Niveau val="4" note=""></Niveau>
+    <Sexismus val="2" note=""></Sexismus>
+    <Professionalität val="5" note=""></Professionalität>
+    <Realismus val="4" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Contact High</titel>
+    <originaltitel>Contact High</originaltitel>
+    <land>Österreich</land>
+    <jahr>2009</jahr>
+    <genre>Komödie</genre>
+    <fsk>16</fsk>
+    <rss>Österreicher auf Drogen in Polen - mehr ist dazu nicht zu sagen - Genial!</rss>
+    <handlung>Alles beginnt mit einer Tasche, die ein einflussreicher Mann in seine Gewalt bringen will. Er engagiert einen seiner "Mitarbeiter", um die Tasche aus der polnischen Provinz, wo sie sich noch befindet, zu holen. Dummerweise wird dieser Auftrag immer weiter delegiert, bis er schließlich am Ende der Rangordnung bei zwei nicht nur kiffenden Wurstbudenbetreibern anlangt. Natürlich fahren diese nicht ohne die notwendige Drogenapotheke los. Dabei stellen sie fest, dass einer der beiden, eigentlich Abstinenzler, immer berauscht wird, wenn der andere Drogen zu sich nimmt - ein Phänomen, dass sie Contact High taufen. Im Verlauf ihrer sehr abwechslungsreichen Reise beginnt sich die reale Welt zusehends mit der Drogenrealität zu verschmieren, bis schließlich Alles in einer surrealen Collage kulminiert.</handlung>
+    <technisch>Dem Publikum ist nichts aufgefallen.</technisch>
+    <inhalt>Da Erzählung mit Drogeneindrücken der Handelnden durchsetzt ist, sind inhaltliche Fehler nicht eindeutig erkennbar.</inhalt>
+    <wissenschaft>Da Erzählung mit Drogeneindrücken der Handelnden durchsetzt ist, sind  Fehler nicht eindeutig erkennbar. So ist zwar die Schwerkraft invertiert, dies ist jedoch Folge des Rausches.</wissenschaft>
+    <bemerkungen>Bei jedem Würzen mit Drogen steigt magischer Dunst aus der Speise.</bemerkungen>
+    <bild>Die wunderbare Welt der Drogen.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">"May the bag be with you!"</zitat>
+    <zitat wertung="normal">"Was würden Sie machen, wenn einer dein Auto beleidigt?"</zitat>
+    <zitat wertung="odd">"Seine große Stunde kam /immer wenn er Pillen nahm."</zitat>
+    <zitat wertung="normal">"Du weißt ja selbst wie Kinder sind" - "Ja, und deswegen hab ich keine!"</zitat>
+    <zitat wertung="normal">"Was hast du eigentlich alles dabei?" - "weiß nicht, da müsst ich im Kofferraum nachsehen: Uppers, Downers LSD, Koks,...und Klebstoff" - "Klebstoff?" - "Naja, wenn ich mal Kinder einladen muss."</zitat>
+    <zitat wertung="odd">"He might speim"</zitat>
+    <zitat wertung="normal">"Immer mit der Ruhe! Wir müssen uns nur fragen, was der Chuck Norris jetzt machen würde!"</zitat>
+  </zitate>
+</bmovie>

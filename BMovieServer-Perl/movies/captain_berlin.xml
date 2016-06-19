@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="bmr.xsl" ?>
+<bmovie>
+  <titel>Captain Berlin versus Hitler</titel>
+  <cover>captain_berlin_versus_hitler.jpg</cover>
+  <links>
+    <link typ="IMDB(En)">http://www.imdb.com/title/tt1323908/</link>
+    <link typ="OFDB">http://www.ofdb.de/film/167164,Captain-Berlin-versus-Hitler</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="4" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="1" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="1" note=""></Gewaltverherrlichung>
+    <Niveau val="4" note=""></Niveau>
+    <Sexismus val="2" note=""></Sexismus>
+    <Professionalität val="0" note="Theaterstück "></Professionalität>
+    <Realismus val="1" note=""></Realismus>
+  </punktwertungen>
+  <details>
+    <originaltitel>Captain Berlin versus Hitler</originaltitel>
+    <land>Deutschland</land>
+    <jahr>2008</jahr>
+    <genre>Drama</genre>
+    <fsk>unbekannt</fsk>
+  </details>
+  <textfelder>
+    <rss>Hitler ist tot - tot? Nicht ganz - sein Hirn hat, konserviert von seiner treuen Leibärztin, bis in die 70er jahre überlebt. Wenn besagte Ärztin beschließt, diesem Hirn wieder einen Körper, sei es ein "aus Leichenteilen deutscher Landser zusammengeflickter Zuchtbulle" oder ein kruppgestählter Hitlerrobo zu verleihen und dann auch noch der vom Widerstand geschaffene nilpotente "Superheld"  Captain Berlin auftaucht um eben dies zu verhindern - muss man den Satz noch vollenden? Anschauen!</rss>
+    <handlung>Die ehemalige Leibärztin Hitlers hat sein Gehirn aufbewahrt und am Leben erhalten. 1973 versucht sie dieses zunächst in einen Leichnam, anschließend in einen Roboter einzusetzen um ihren Führer so wieder zum Leben zu erwecken. Doch Hitlers alter Erzfeind Captain Berlin, ein während des 3. Reichs vom Untergrund erschaﬀener Superheld – stellt a sich der Wissenschaftlerin in den Weg.</handlung>
+    <technisch>Schatten des Mikrofons im Bild.</technisch>
+    <inhalt>Das Stück stellt eine surrealistische Welt dar. Inhaltlich-logische Kriterien sind hier nur eingeschränkt verwendbar.</inhalt>
+    <wissenschaft>Das Stück stellt eine surrealistische Welt dar. Wissenschaftliche Kriterien sind hier nur eingeschränkt verwendbar; 1973 hatte der Reichstag noch keine gläserne Kuppel.</wissenschaft>
+    <bemerkungen>Der Film ist ein abgeﬁlmtes, nachbearbeitetes Theaterstück; Graf Dracula liegt im kommunistischen Brandenburg begraben und zeigt deutliche marxistische Anwandlungen; "Aus Leichenteilen gefallener, deutscher Landser zusammengeﬂickter Zuchtbulle”; Hitlerrobo aus gehärtetem Kruppstahl; Fön als "Ultrarevolver”.</bemerkungen>
+    <bild>Der Geist Adolf Hitlers lebt weiter. Die Bedrohung durch den Faschismus besteht fort.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">"Ich habe es geahnt - Adolf Hitler lebt!"</zitat>
+    <zitat wertung="odd">"Der Vampir ist aus dem Ostblock. Er wird sich seine Wohnung also in der Ostzone suchen."</zitat>
+  </zitate>
+</bmovie>

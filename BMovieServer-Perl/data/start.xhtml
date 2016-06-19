@@ -1,0 +1,46 @@
+<p align="center">
+This is the <br/>
+<b>B Movie Review System</b>
+</p>
+<p>
+Thank you for choosing the perl-driven variant! :)
+</p><p>
+Everything in here is <b>free</b>. See <a href="showpage.pl?file=data/impressum.xhtml">impressum</a> for further information.
+</p>
+<p>
+All changeable variables are defined in MovieXHTML.pm (at least nearly ;) ).
+
+On the left, you find:
+
+<table>
+<tr><td>Start</td><td>The Start Page ("home") This is basically the file data/start.xhtml. Modify this file acc. to XHTML standard in order to customize your start page!</td</tr>
+<tr><td>News</td><td>Here, you find the last NO entries of the rss feed. The basic values are NO = 10, the standard rss file is "mrs.rss". You can alter these values by modifying either within file "news.pl" NO_ENTRIES  or within file "MovieXHTML.pm" the value of RSS_FILE.</td></tr>
+<tr><td>All Movies</td><td>This gives you a list of all movies registered so far. Choose one to see all details of the movie.</td></tr>
+<tr><td>Impressum</td><td>This shows the file data/impressum.xhtml. Alter this file to show whatever kind of impressum you want to use.</td></tr>
+<tr><td>RSS feed</td><td>This is the rss feed of the page. It is handled atuomatically.</td></tr>
+</table>
+</p>
+
+<p>
+For feeding the system with proper data, the usage of the <a href="http://savannah.nongnu.org/projects/bmoviereviewer"">BMovieReviewer</a> is highly recommended. Tis is a easy to use Java application. Just make it post the data to the location your server can be found. For how to perform this, have a look at the Reviewer documentation or the <b>bare</b> code.	
+</p>
+
+<p>
+To register new users, use the script "adduser.pl". For example, 
+<br/>
+./adduser foo password
+<br/> 
+in order to create a user "foo" with password password.
+To delete a user, open the file "users.sst" with your favourite editor (I recommend emacs OR vi ;), scroll for the user name in the first column and delete the entire line (dont panic, noone will be able to reconstruct your password from the data found in this file, at least its almost sure). <br/>
+Initially, each user receives an ordinary description page saying that there is none - not quite satisfying, is it? Yout can modify the user profile by writing nice text into the users/foo.xhtml (replace foo by the actual user name - the file is created by the adduser - script).
+</p>
+
+<p>
+All posted movies can be found within the "movies" subdirectory.
+To delete a movie, remove the xml and jpg file from that directory and check "movies.sst" for any appearance of the movie title.
+To remove the rss - entry of the movie as well, scan the rss file for any entry containing the movie's title.  
+</p>
+
+<p>
+<b> I know, by now it's quite a hard job to do any unusual thing like removing anything thing. Probably there will be some enhancements for your comfort.</b>
+</p>

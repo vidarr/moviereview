@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>mega_shark_vs_giant_octopus.jpg</cover>
+  <links>
+    <link typ="Wiki(En)">http://en.wikipedia.org/wiki/Mega_Shark_Versus_Giant_Octopus</link>
+    <link typ="IMDB(En)">http://www.imdb.com/title/tt1350498/</link>
+    <link typ="IMDB(De)">http://www.imdb.de/title/tt1350498/</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="2" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="1" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="3" note=""></Gewaltverherrlichung>
+    <Niveau val="1" note=""></Niveau>
+    <Sexismus val="1" note=""></Sexismus>
+    <Professionalität val="3" note=""></Professionalität>
+    <Realismus val="1" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Mega Shark versus Giant Octopus</titel>
+    <originaltitel>Mega Shark versus Giant Octopus</originaltitel>
+    <land>VSA</land>
+    <jahr>2009</jahr>
+    <genre>Horror</genre>
+    <fsk>16</fsk>
+    <rss>Und der Klimawandel ist doch heute schon zu spüren: Zweie in jeder Hinsicht maßlose Wassermonster tauen aus dem ewigen Eis und suchen quasi als der Natur Racheengel die Menschheit heim. Leider im Gegensatz zu den oft ähnlich gelagerten bekannten Godzillastreifen einfach nur nervtötend...</rss>
+    <handlung>Durch den Klimawandel tauen zwei Urzeitmonster aus dem ewigen Eis auf: Ein gigantischer Tintenfisch und ein "Megalodon", ein Riesenhai mit erschreckenden Fähigkeiten. Nicht nur dass er mühelos Schiffe schluckt, er kann sich sogar derart weit aus dem Wasser katapultieren, um Passagiermaschinen gleich Fliegen aus der Luft zu schnappen. Während beide Schaden stiftend durch die Meere ziehen, schlagen alle Versuche, sie zu stoppen, fehl. Schließlich gelingt es jedoch, beide gegeneinander auszuspielen und sich gegenseitig bekämpfen zu lassen.</handlung>
+    <technisch>Schlechte Synchronisation.</technisch>
+    <inhalt>Nach dem Abschuss des letzten Torpedos werden noch weitere Torpedos abgeschossen.</inhalt>
+    <wissenschaft>Aufgeschnittener Wal scheint keine Organe zu haben; Hai springt aus dem Meer und frisst fliegendes Passagierflugzeug; Hai schwimmt mit über 500 Knoten (900 km/h!).</wissenschaft>
+    <bemerkungen>Wale werden mit Infraschall dazu gebracht Eisberg mit Tintenfisch zu rammen; Wachmänner tragen in dunklen Räumen Sonnenbrillen;  Klischelabor in dem ständig farbige Mischungen zusammengeschüttet werden.</bemerkungen>
+    <bild>Das Militär ist wichtig und auch die Wissenschaft muss ihm dienen.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">"Die Polarkappen schmelzen wegen unserer Unachtsamkeit. Jetzt kriegen wir die Quittung dafür."</zitat>
+    <zitat wertung="odd">"Das sind Angriffe auf zivile Ziele - Irrelevant."</zitat>
+    <zitat wertung="normal">"Scheiß auf diese Umweltheinis!"</zitat>
+    <zitat wertung="normal">"Nuklearwaffen sind unsere einzige Option."</zitat>
+  </zitate>
+</bmovie>

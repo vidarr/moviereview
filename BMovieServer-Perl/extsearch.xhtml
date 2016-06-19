@@ -1,0 +1,87 @@
+<h1 align="center">Erweiterte Suche</h1>
+<p>'*' wählt alle möglichen Werte an</p><p>
+<form action="searchgudb.pl">
+  <h2>Allgemein</h2>
+  <table border="0" cellpadding="0" cellspacing="4">
+    <tr>
+      <td align="right">Titel</td>
+      <td><input name="title" type="text" size="25" maxlength="25" value="*"></td>
+      <td align="right">Genre:</td>     
+      <td><input name="genre" type="text" size="15" maxlength="15"  value="*"></td>
+      </tr><tr>
+      <td align="right">FSK:</td>
+      <td>
+      	  <select name="fsk" size="3"  value="*">
+ 	  	  <option selected="selected" >*</option>
+      	  	  <option>unbekannt</option>
+      	  	  <option>6</option>
+      	  	  <option>12</option>
+      	  	  <option>16</option>
+      	  	  <option>18</option>
+  		  <option>indiziert</option>  
+		  <option>beschlagnahmt</option>
+    	  </select>
+      </td> 
+      <td align="right">FSK maximal:</td>
+      <td>
+      	  <select name="fsk2" size="3">
+	  	  <option selected="selected" >*</option>
+      	  	  <option>unbekannt</option>
+      	  	  <option>0</option>
+      	  	  <option>6</option>
+      	  	  <option>12</option>
+      	  	  <option>16</option>
+      	  	  <option>18</option>
+  		  <option>indiziert</option>  
+		  <option>beschlagnahmt</option>
+    	  </select>
+      </td>
+    </tr><tr>	
+      <td></td>
+      <td><table><td align="right">Jahr:</td> <td><input name="year" type="text" size="4" maxlength="4" value="*"></td>
+      <td align="right">Bis Jahr:</td> <td><input name="year2" type="text" size="4" maxlength="4"  value="*"></td></table>
+      <td align="right">Land:</td>
+      <td><input name="land" type="text" size="30" maxlength="30"  value="*"></td>
+    <tr></tr>	
+  </table>
+  <h2>Punktwertungen</h2>
+  <!-- Realismus Niveau Pornofaktor Gewaltverherrlichung Gewaltdarstellung Professionalität Sexismus Unterhaltungswert -->
+  <table border="0" cellpadding="0">
+    <tr>
+       <td>Realismus:</td><td><input name="Realismus" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Realismus2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Niveau:</td><td><input name="Niveau" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Niveau2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Pornofaktor:</td><td><input name="Pornofaktor" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Pornofaktor2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Gewaltverherrlichung:</td><td><input name="Gewaltverherrlichung" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Gewaltverherrlichung2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Gewaltdarstellung:</td><td><input name="Gewaltdarstellung" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Gewaltdarstellung2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Professionalität:</td><td><input name="Professionalität" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Professionalität2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Sexismus:</td><td><input name="Sexismus" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Sexismus2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+    <tr>
+       <td>Unterhaltungswert:</td><td><input name="Unterhaltungswert" type="text" size="1" maxlength="1"  value="*"></td><td>bis</td><td>
+       <input name="Unterhaltungswert2" type="text" size="1" maxlength="1"  value="*"></td>
+    </tr>
+  </table>
+  <p align="center">
+  <input type="submit" value=" Suchen ">
+  </p>
+</form>
+</p>

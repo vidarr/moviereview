@@ -1,0 +1,110 @@
+Installation & configuration
+============================
+
+Refer to file INSTALL.
+
+
+Execution
+=========
+
+General invocation is
+
+	bmovie [options]
+
+where bmovie is some kind of BMovieReviewer invocation.	
+If a file is given, it is assumed to be a BMovieReviewer XML file and loaded.
+
+If BMovieReviewer is invoked, following directories/jars should be within the class path:
+.
+[path_to_bmoviereviewer]
+[path_to_bmoviereviewer]/lib/stax-utils.jar
+[path_to_bmoviereviewer]/lib/jortho.jar
+
+This is ensured if you rely on one of these methods of invocation:
+
+  
+Execution of jar 
+================ 
+To execute BMoviereviewer from a distributed jar, invoke java this way:
+java -jar bmovie.jar 
+
+
+Execution of .class-files
+=========================
+Go into [path_to_bmoviereviewer]/build and execute 
+from linux/unix: ./bmovie (be sure to have the execution flag set, if in doubt, execute 'chmod 755 bmovie' first)
+from windows   : Rely on the jar method 
+
+
+Parameters
+==========
+
+-f --file [file]
+----------------
+Loads 'file' for editing
+
+-gcf --generate-config-file
+---------------------------
+Prints a config.xml with standard settings to standard out
+
+-cfg --config-file [file]
+-------------------------
+Loads settings from 'file' 
+
+-dtd --print-bmovie-dtd
+-----------------------
+Prints DTD of the BMovieReviewer-XML format to standard-out
+
+-xls --print-bmovie-xls
+-----------------------
+Prints XLS of the BMovieReviewer-XML format to standard-out
+If the output sis saved to bmr.xls ,
+you can view every saved xml with your browser as long as you keep the xls 
+within the current directory
+
+-ip --import-pdf [file]
+-----------------------
+Tries to import PDF 'file'  
+
+-ep --export-pdf [file]
+-------------------
+Tries to export XML 'file' to PDF
+
+-et --export-tex [file]
+-------------------
+Tries to export XML 'file' to TEX
+ 
+-cp --convert-pdf [file]
+------------------------
+Tries to generate a XML file from PDF
+
+
+Remark: All files are created either:
+  * in the folder where the last xml was loaded from or stored to
+  * or if there was no xml loading storing operation they are placed in the current one
+There is ONE exception: If you export PDFs, they are always stored in the current folder, as 
+BMR relies on pdflatex and it just behaves that way. One could move it for convenience or just leave it 
+where it was put by elder forces...it's a 'tribute' to TeX ;)
+
+Editing
+=======
+
+Editing "Wissenschaftliche/ logische/ technische Fehler/ Anmerkungen/ Handlung"
+-------------------------------------------------------------------------------
+
+In general, using line breaks is disabled. You can however use the following special signs (compare XHTML):
+Line breaks: Type <br/>
+Bullets:     Type <li/>  
+
+For example:
+
+"This is a small enumeration: <br/> <li/> Firstly <li/> Secondly/> "
+
+will eventually create something like 
+
+"This is a small Enumeration:
+ * Firstly
+ * Secondly"
+
+ 
+

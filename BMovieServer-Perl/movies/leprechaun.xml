@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>leprechaun.jpg</cover>
+  <links>
+    <link typ="Wiki(De)">http://de.wikipedia.org/wiki/Leprechaun_–_Der_Killerkobold</link>
+    <link typ="Wiki(En)">http://en.wikipedia.org/wiki/Leprechaun_(film)</link>
+    <link typ="IMDB(De)">http://www.imdb.de/title/tt0107387/</link>
+    <link typ="IMDB(En)">http://www.imdb.com/title/tt0107387/</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="4" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note="(leider)"></Pornofaktor>
+    <Gewaltdarstellung val="3" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="4" note=""></Gewaltverherrlichung>
+    <Niveau val="2" note=""></Niveau>
+    <Sexismus val="1" note=""></Sexismus>
+    <Professionalität val="4" note=""></Professionalität>
+    <Realismus val="4" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Leprechaun - Der Killerkobold</titel>
+    <originaltitel>Leprechaun</originaltitel>
+    <land>VSA</land>
+    <jahr>1993</jahr>
+    <genre>Horror</genre>
+    <fsk>16</fsk>
+    <rss>Leprechaun - nun auch als xml!</rss>
+    <handlung>Nachdem ein Mann Gold von einem Leprechaun gestohlen hat, sucht ihn dieses heim. Bei der Auseinandersetzung in seinem Haus tötet das Leprechaun dessen Frau, der Mann kann das Leprechaun in eine Kiste sperren und durch ein vierblättriges Kleeblatt daran hindern, aus dieser wieder auszubrechen. Jahre später zieht ein Mann mit seiner Tochter in das inzwischen ziemlich verwahrloste Haus ein, das Leprechaun in der Kiste ist längst vergessen. Nachdem ein Anstreicher zusammen mit einem Jungen das Gold des Leprechaun entdeckt und dabei eine der Münzen verschluckt, befreit er versehentlich das Leprechaun. Da dieses nach wie vor auf sein Gold aus ist, beginnt es den Personen im Haus, dem Anstreicher, seinem Kollegen, dem Jungen und der Tochter, übel mitzuspielen. Nach einem Katz- und Mausspiel, dass den ganzen Tag und die Nacht über andauert und mehreren Menschen das Leben kostet, schaﬀen es die vier schließlich, das Leprechaun in einen Brunnen zu stoßen und zu verbrennen.</handlung>
+    <technisch>Beim Sturz sieht man deutlich, dass es sich um eine Puppe handelt; Blut wirkt sehr künstlich.</technisch>
+    <inhalt>Dem Publikum ist nichts aufgefallen.</inhalt>
+    <wissenschaft>Flüssiges Benzin explodiert; Streichhölzer brennen trotz extremer Winde; Winziger rasender Eimer wirft Jeep durch Rammen um; Durchbruchsilhouette im Gartenzaun exakt menschenförmig.</wissenschaft>
+    <bemerkungen>Ozzy bekommt Intelligenz-OP in Aussicht gestellt; Leprechaun ersetzt sein fehlendes Auge durch das einer Leiche.</bemerkungen>
+    <bild>Dem Publikum ist keines aufgefallen.</bild>
+  </textfelder>
+  <zitate></zitate>
+</bmovie>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>zombie_town.jpg</cover>
+  <links>
+    <link typ="IMDB(De)">http://www.imdb.de/title/tt0103959/</link>
+    <link typ="Wiki(De)">http://de.wikipedia.org/wiki/Zombie_Town</link>
+    <link typ="Wiki(En)">http://en.wikipedia.org/wiki/Chopper_Chicks_in_Zombietown</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="3" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="3" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="4" note=""></Gewaltverherrlichung>
+    <Niveau val="2" note=""></Niveau>
+    <Sexismus val="3" note=""></Sexismus>
+    <Professionalität val="2" note=""></Professionalität>
+    <Realismus val="2" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Zombie Town</titel>
+    <originaltitel>Chopper Chicks in Zombie Town</originaltitel>
+    <land>VSA</land>
+    <jahr>1989</jahr>
+    <genre>Horrorkomödie</genre>
+    <fsk>18</fsk>
+    <rss>Eine Uranmine wäre eine einträgliche Sache, wenn nur die menschenunfreundliche radioaktive Strahlung nicht wäre. Eine naheliegende Lösungsmöglichkeit wäre also Menschen mittels einer Batterie (!), in Zombies zu verwandeln (!!), die dann das Uran schürfen (!!!), doch zum Glück gibt es ja noch die Cycle Sluts, die diesen Zustand mehr oder weniger zufällig beenden und die Zombies befreien, was die Sache aber zunächst nicht besser macht, zumal noch ein Bus blinder Waisen (!!!!) in der Gegend ist. Aber leider: aus einer derartigen Menge Skurrilitäten hätte man sicher noch mehr machen können - kann man nicht uneingeschränkt empfehlen...</rss>
+    <handlung>Eine weibliche Motorradgang, die sich selbst "Cycle Sluts" nennen, kommt in eine Stadt in der ein Verrückter Menschen tötet und zu Zombies macht, damit sie für ihn radioaktives Material im Bergwerk abbauen.</handlung>
+    <technisch>Autos und Motorräder explodieren nach Unfall .</technisch>
+    <inhalt>Uzi ist von einer Szene auf die andere fast ein Meter lange MP.</inhalt>
+    <wissenschaft>Dem Publikum ist nichts aufgefallen.</wissenschaft>
+    <bemerkungen>"Life’s a bitch – and then you die… usually"; Zombies laufen mit Batterien; Äußerst ungewöhnliches musikalisches Zombiemotiv  mit Lotusflöte; Sarg wird offen in Kneipe aufgebahrt.</bemerkungen>
+    <bild>Dem Publikum ist keines aufgefallen.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">"Ihr seid Schlampen. Verhaltet euch gefälligst so!"</zitat>
+    <zitat wertung="normal">"Für die Akte: Die Lesbe bin ich."</zitat>
+    <zitat wertung="normal">"Ihr hattet Sex! Den Geruch kenne ich noch."</zitat>
+    <zitat wertung="normal">"Ich habe es nicht für die Wissenschaft getan und nicht für die Anerkennung. Ich bin einfach fies."</zitat>
+    <zitat wertung="odd">"Das ist mein Mann gewesen." "Dein Mann ist tot." "Sag ihm das!"</zitat>
+  </zitate>
+</bmovie>

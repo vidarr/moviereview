@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>albedo_infinit.jpg</cover>
+  <links>
+    <link typ="Wiki(De)">http://de.wikipedia.org/wiki/Plan_B</link>
+    <link typ="badmovies.de">http://images.google.de/images?q=hintergrundstrahlung&amp;oe=utf-8&amp;rls=com.ubuntu:en-US:official&amp;client=firefox-a&amp;um=1&amp;ie=UTF-8&amp;ei=OQiiS4vNII_7_Abm_I2UCg&amp;sa=X&amp;oi=image_result_group&amp;ct=title&amp;resnum=4&amp;ved=0CBkQsAQwAw</link>
+  </links>
+  <punktwertungen>
+    <Unterhaltungswert val="0" note="Heute"></Unterhaltungswert>
+    <Pornofaktor val="0" note="im"></Pornofaktor>
+    <Gewaltdarstellung val="0" note="Angebot:"></Gewaltdarstellung>
+    <Gewaltverherrlichung val="0" note="Sick-o-Matic"></Gewaltverherrlichung>
+    <Niveau val="0" note="Elektroschock-"></Niveau>
+    <Sexismus val="3" note="Decke"></Sexismus>
+    <Professionalität val="0" note=""></Professionalität>
+    <Realismus val="0" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Albedo infinit 2</titel>
+    <originaltitel>Heihaho 2</originaltitel>
+    <land>unbekannt</land>
+    <jahr>0</jahr>
+    <genre>unbekannt</genre>
+    <fsk>6</fsk>
+    <rss>Nichts Neues.</rss>
+    <handlung>Dem Publikum ist keine aufgefallen.</handlung>
+    <technisch>Dem Publikum ist nichts aufgefallen.</technisch>
+    <inhalt>Dem Publikum ist nichts aufgefallen.</inhalt>
+    <wissenschaft>Dem Publikum ist nichts aufgefallen.</wissenschaft>
+    <bemerkungen>Dem Publikum erscheint nichts bemerkenswert.</bemerkungen>
+    <bild>Dem Publikum ist keines aufgefallen.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">Upps da hat er doch</zitat>
+    <zitat wertung="normal">Und nochwas drauf</zitat>
+  </zitate>
+  <videos>
+    <video typ="Youtube">http://www.youtube-nocookie.com/v/VYqrWRiS204</video>
+  </videos>
+</bmovie>

@@ -1,0 +1,202 @@
+%%
+ % BMovieReviewer Copyright (C) 2009 Michael J. Beer
+ % 
+ % This program is free software: you can redistribute it and/or modify it under
+ % the terms of the GNU General Public License as published by the Free Software
+ % Foundation, either version 3 of the License, or (at your option) any later
+ % version.
+ % 
+ % This program is distributed in the hope that it will be useful, but WITHOUT
+ % ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ % FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ % details.
+ % 
+ % You should have received a copy of the GNU General Public License along with
+ % this program. If not, see <http://www.gnu.org/licenses/>.
+ %%
+% Package zur Erstellung der B-Moviebewertungsboegen
+
+\ProvidesPackage{bmovie}
+
+\usepackage[utf8]{inputenc}
+
+\def \bmIntUnterhaltungswert{0}
+\def \bmIntPornofaktor{0}
+\def \bmIntGewaltdarstellung{0}
+\def \bmIntGewaltverherrlichung{0}
+\def \bmIntNiveau{0}
+\def \bmIntSexismus{0}
+\def \bmIntProfessionalitaet{0}
+\def \bmIntRealismus{0}
+
+\def \bmIntTechnisch{Das Publikum hat keine bemerkt}
+\def \bmIntInhalt{Das Publikum hat keine bemerkt}
+\def \bmIntWissenschaft{Das Publikum hat keine bemerkt}
+\def \bmIntBild{Das Publikum hat keines bemerkt}
+\def \bmIntHandlung{Dem Publikum ist keine aufgefallen}
+\def \bmIntBemerkungen{Dem Publikum erschien nichts bemerkenswert}
+
+\def \bmIntUnterhaltungswertAnmerkung{}%
+\def \bmIntPornofaktorAnmerkung{}%
+\def \bmIntGewaltdarstellungAnmerkung{}%
+\def \bmIntGewaltverherrlichungAnmerkung{}%
+\def \bmIntNiveauAnmerkung{}%
+\def \bmIntSexismusAnmerkung{}%
+\def \bmIntProfessionalitaetAnmerkung{}%
+\def \bmIntRealismusAnmerkung{}%
+
+
+% Punktwertungen
+\newcommand{\bmUnterhaltungswert}[2][]{ %
+  \def \bmIntUnterhaltungswert{#2}%
+  \def \bmIntUnterhaltungswertAnmerkung{#1}
+}
+\newcommand{\bmPornofaktor}[2][]{ %
+  \def \bmIntPornofaktor{#2}%
+  \def \bmIntPornofaktorAnmerkung{#1}
+}
+\newcommand{\bmGewaltdarstellung}[2][]{ %
+  \def \bmIntGewaltdarstellung{#2}%
+  \def \bmIntGewaltdarstellungAnmerkung{#1}
+}
+\newcommand{\bmGewaltverherrlichung}[2][]{ %
+  \def \bmIntGewaltverherrlichung{#2}%
+  \def \bmIntGewaltverherrlichungAnmerkung{#1}%
+}
+\newcommand{\bmNiveau}[2][]{ %
+  \def \bmIntNiveau{#2}%
+  \def \bmIntNiveauAnmerkung{#1}%
+}
+\newcommand{\bmSexismus}[2][]{%
+  \def \bmIntSexismus{#2}%
+  \def \bmIntSexismusAnmerkung{#1}%
+}
+\newcommand{\bmProfessionalitaet}[2][]{%
+  \def \bmIntProfessionalitaet{#2}%
+  \def \bmIntProfessionalitaetAnmerkung{#1}%
+}
+\newcommand{\bmRealismus}[2][]{%
+  \def \bmIntRealismus{#2}%
+  \def \bmIntRealismusAnmerkung{#1}%
+}
+
+
+
+%Textfelder
+\newcommand{\bmTechnisch}[1]{%
+  \def \bmIntTechnisch{#1}%
+}
+\newcommand{\bmInhalt}[1]{%
+  \def \bmIntInhalt{#1}%
+}
+\newcommand{\bmWissenschaft}[1]{%
+  \def \bmIntWissenschaft{#1}%
+}
+\newcommand{\bmBemerkungen}[1]{%
+  \def \bmIntBemerkungen{#1}%
+}
+\newcommand{\bmBild}[1]{%
+  \def \bmIntBild{#1}%
+}
+\newcommand{\bmHandlung}[1]{%
+  \def \bmIntHandlung{#1}%
+}
+\newcommand{\bmZitate}[1]{%
+  \def \bmIntZitate{#1}%
+}
+
+
+% Aufbau der Punkttabelle
+\newcommand{\bmIntMP}[2]{%
+  \ifnum#1=#2
+  $\bullet$
+  \else
+  $\circ$
+  \fi
+}
+
+
+\newcommand{\bmPunktwertungen}[0]{%
+  \begin{center}%
+    \begin{tabular}{lp{5ex}p{5ex}p{5ex}p{5ex}p{5ex}l}%{lccccc}%
+      \centering
+      & \emph{hoch}& & & & \emph{gering} \\
+      Unterhaltungswert: & \bmIntMP{5}{\bmIntUnterhaltungswert} &  \bmIntMP{4}{\bmIntUnterhaltungswert} & 
+      \bmIntMP{3}{\bmIntUnterhaltungswert} &  \bmIntMP{2}{\bmIntUnterhaltungswert} &  \bmIntMP{1}{\bmIntUnterhaltungswert} &
+      \tiny{\bmIntUnterhaltungswertAnmerkung}\\
+      Pornofaktor: &  \bmIntMP{5}{\bmIntPornofaktor} & \bmIntMP{4}{\bmIntPornofaktor} & \bmIntMP{3}{\bmIntPornofaktor} &
+      \bmIntMP{2}{\bmIntPornofaktor} & \bmIntMP{1}{\bmIntPornofaktor} & \tiny{\bmIntPornofaktorAnmerkung}\\
+      Gewaltdarstellung: &  \bmIntMP{5}{\bmIntGewaltdarstellung} & \bmIntMP{4}{\bmIntGewaltdarstellung} & 
+      \bmIntMP{3}{\bmIntGewaltdarstellung} & \bmIntMP{2}{\bmIntGewaltdarstellung} & \bmIntMP{1}{\bmIntGewaltdarstellung} & 
+      \tiny{\bmIntGewaltdarstellungAnmerkung}\\
+      Gewaltverherrlichung: &  \bmIntMP{5}{\bmIntGewaltverherrlichung} & \bmIntMP{4}{\bmIntGewaltverherrlichung} & 
+      \bmIntMP{3}{\bmIntGewaltverherrlichung} & \bmIntMP{2}{\bmIntGewaltverherrlichung} & 
+      \bmIntMP{1}{\bmIntGewaltverherrlichung} & \tiny{\bmIntGewaltverherrlichungAnmerkung}\\
+      Niveau: \tiny{(B-Movie berücksichtigt!)}&  \bmIntMP{5}{\bmIntNiveau} & \bmIntMP{4}{\bmIntNiveau} & 
+      \bmIntMP{3}{\bmIntNiveau} & \bmIntMP{2}{\bmIntNiveau} & \bmIntMP{1}{\bmIntNiveau} & \tiny{\bmIntNiveauAnmerkung}\\
+      Sexismus: &  \bmIntMP{5}{\bmIntSexismus} & \bmIntMP{4}{\bmIntSexismus} & \bmIntMP{3}{\bmIntSexismus} &
+      \bmIntMP{2}{\bmIntSexismus} & \bmIntMP{1}{\bmIntSexismus} & \tiny{\bmIntSexismusAnmerkung}\\
+      Professionalität: &  \bmIntMP{5}{\bmIntProfessionalitaet} & \bmIntMP{4}{\bmIntProfessionalitaet} & 
+      \bmIntMP{3}{\bmIntProfessionalitaet} & \bmIntMP{2}{\bmIntProfessionalitaet} & \bmIntMP{1}{\bmIntProfessionalitaet} & 
+      \tiny{\bmIntProfessionalitaetAnmerkung}\\
+      Realismus: &  \bmIntMP{5}{\bmIntRealismus} & \bmIntMP{4}{\bmIntRealismus} & \bmIntMP{3}{\bmIntRealismus} &
+      \bmIntMP{2}{\bmIntRealismus} & \bmIntMP{1}{\bmIntRealismus} & \tiny{\bmIntRealismusAnmerkung}
+    \end{tabular}%
+  \end{center}%
+}
+
+
+
+% Textfelder
+
+
+% Allgemeines Textfeld% Allgemeines Textfeld
+\newcommand{\bmIntMovietextfeld}[2] {%
+  \textbf{#1} #2%
+}
+
+
+\newcommand{\bmTextfelder}[0]{
+  \bmIntMovietextfeld{Handlung:}{\bmIntHandlung}%
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Auffällige Fehler (technisch):}{\bmIntTechnisch}
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Auffällige Fehler (inhaltlich-logisch):}{\bmIntInhalt}%
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Auffällige Fehler (``wissenschaftlich'', z.B.: historisch, physikalisch, usw.):}{\bmIntWissenschaft}%
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Was für ein Bild vermittelt der Film?}{\bmIntBild}%
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Bemerkungen:}{\bmIntBemerkungen}%
+  \ifdefined\bmIntZitate
+  \vspace{0.5cm}\\
+  \bmIntMovietextfeld{Zitate:}{\bmIntZitate}%
+  \fi
+}
+
+
+% Erstellt Bogenkopf
+% Parameter sind eigl. selbsterklaerend
+\newcommand{\bmHeader}[6]{%
+  \begin{center}
+    \textbf{\Large{B-Moviebewertung}}%
+  \end{center}%
+  \vspace{.8cm}%
+  \begin{tabular}{p{0.7\textwidth}ll}
+    \textbf{Name:} #1 & \multicolumn{2}{l}{\textbf{Land:} #2} \\
+    \textbf{Originaltitel:} #3 & \textbf{Jahr:} #4 & \textbf{FSK:} #5\\ 
+    \textbf{Genre:} #6 & &
+  \end{tabular}%
+}
+
+
+% Alles Zusammenfassend: Das Bogenkommando
+
+\newcommand{\bmMakeBMovieBogen}[6]{
+  \pagestyle{empty}
+  \bmHeader{#1}{#2}{#3}{#4}{#5}{#6}
+  \vspace{.7cm}
+  \bmPunktwertungen
+  \vspace{1.cm}
+  \bmTextfelder
+}

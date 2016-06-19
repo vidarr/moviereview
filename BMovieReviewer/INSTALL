@@ -1,0 +1,43 @@
+Installation
+============
+
+Extract the bmovie.tar.gz tarball using
+LINUX/UNIX: tar xf bmovie.tar.gz
+WINDOWS:    Winzip or anything like it
+
+You get a directory called BMovieReviewer in the current directory (or whereever you extracted it to)
+
+There are two possible distributions:
+
+1. jar
+	if you got this one, you are done
+	
+2. file system containing java sources
+	Here, first you should build the binaries by typing
+		ant
+	A directory called 'build' is created and the entire distribution is stored within
+	You could now change dirs into the 'build' directory and go on executing BMovieReviewer,
+	or build a handy jar by typing
+		ant jar
+	Be aware, that the jar is built into the root directory of the distribution. If you move it, 
+	be sure to move the 'dat/' subdirectory into the same folder. Otherwise, some functionality will
+	be reduced.
+	
+	
+Configuration
+=============
+
+There are several properties you would like to change like the server name the data is sent to
+or the scripts on the server that are executed for sending it.
+
+To do so, you must create a configuration file by invoking BMovieReviewer this way:
+	bmovie --gcf > config.xml
+where bmovie is the command to invoke BMovieReviewer which depends...
+
+Then you can edit the file. 
+NOTE: The file does not at all have to contain all possible keys. Missing ones are assigned standard values.
+
+Conveniently, the configuration file has to be called config.xml and be within the current directory.
+You can make BMovieReviewer use a different file by providing the -cfg - switch (See file Readme).
+
+	

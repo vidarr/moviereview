@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bmovie>
+  <cover>clownhouse</cover>
+  <links></links>
+  <punktwertungen>
+    <Unterhaltungswert val="2" note=""></Unterhaltungswert>
+    <Pornofaktor val="1" note=""></Pornofaktor>
+    <Gewaltdarstellung val="2" note=""></Gewaltdarstellung>
+    <Gewaltverherrlichung val="2" note=""></Gewaltverherrlichung>
+    <Niveau val="1" note=""></Niveau>
+    <Sexismus val="1" note=""></Sexismus>
+    <Professionalität val="4" note=""></Professionalität>
+    <Realismus val="4" note=""></Realismus>
+  </punktwertungen>
+  <textfelder>
+    <titel>Clownhouse</titel>
+    <originaltitel>Clownhouse</originaltitel>
+    <land>VSA</land>
+    <jahr>1989</jahr>
+    <genre>Slasher</genre>
+    <fsk>18</fsk>
+    <rss>Nichts Neues.</rss>
+    <handlung>Drei Ausbrecher aus der Psychiatrie morden in Clownskostümen. Nur ein ängstlicher, kleiner Junge nimmt sie zunächst wahr, doch niemand glaubt ihm.</handlung>
+    <technisch>Clown, der durchs Fenster fliegt, sieht man an, dass es eine Puppe ist.</technisch>
+    <inhalt>anche Verhaltensweisen der Figuren erscheinen nicht wirklich logisch.</inhalt>
+    <wissenschaft>Während der Zirkusvorstellung hört man vor dem Zelt nichts von drinnen.</wissenschaft>
+    <bemerkungen>Puppe wird zu Halloween im Garten aufgehängt; bei Nachtszenen wird viel zu viel Scheinwerfen verwendet.</bemerkungen>
+    <bild>Man muss sich seinen Ängsten stellen.</bild>
+  </textfelder>
+  <zitate>
+    <zitat wertung="normal">Hast du nicht eine Kleinigkeit vergessen? Zum Beispiel wer dich verprügeln kann?</zitat>
+  </zitate>
+</bmovie>

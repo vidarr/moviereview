@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     22.01.2010 12:42:23                                                        
+
+     project      BMovieReviewer
+     description  
+                   
+     mibeer                                                                
+     ====================================================================== -->
+<project name="BMvoieReviewer" default="dist-dir">
+	<description>
+            BMovieReviewer is a simple GUI for reviewing movies, esp. such ones rated b
+    </description>
+
+	<property name="project-name" value="bmoviereviewer" />
+	<property name="src" value="src" />
+	<property name="build" value="build" />
+	<property name="tarball-name" value="${project-name}.tar.gz" />
+	<property name="zip-name" value="${project-name}.zip" />
+	<property name="jar-name" value="${project-name}.jar" />
+
+
+	<property name="standard.doc" value="AUTHORS,COPYING,Readme,TODO,LICENCE-stax-utils,INSTALL" />
+	<property name="dat" value="dat" />
+	<property name="start-script" value="bmovie" />
+	<property name="start-script-jar" value="bmovie-jar" />
+	<property name="basedir" value="." />
+
+
+	<path id="class.path">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="dist-dir" depends="binaries" description="Builds the Stand-alone GUI">
+	</target>
+
+
+	<target name="jar" depends="dist-dir" description="Builds the Stand-alone GUI within a jar">
+		<jar destfile="${jar-name}">
+			<manifest>
+				<attribute name="Built-By" value="M.J. Beer" />
+				<attribute name="anifest-Version" value="1.0" />
+				<attribute name="Class-Path" value="." />
+				<attribute name="Main-Class" value="main.BMovieApp" />
+			</manifest>
+			<fileset dir="${basedir}/${build}" id="classFiles">
+				<patternset id="class.files">
+					<include name="**/*.class" />
+				</patternset>
+			</fileset>
+			<fileset dir="${basedir}">
+				<include name="${dat}/*" />
+			</fileset>
+			<zipfileset src="lib/stax-utils.jar">
+			</zipfileset>
+			<zipfileset src="lib/jortho.jar">
+			</zipfileset>
+			<zipfileset src="lib/apache-mime4j-0.6.jar">
+			</zipfileset>
+			<zipfileset src="lib/commons-logging-1.1.1.jar">
+			</zipfileset>
+			<zipfileset src="lib/httpclient-4.1-alpha1.jar">
+			</zipfileset>
+			<zipfileset src="lib/httpcore-4.1-alpha1.jar">
+			</zipfileset>
+			<zipfileset src="lib/httpmime-4.1-alpha1.jar">
+			</zipfileset>
+			<filelist dir="${basedir}" files="${standard.doc}" />
+		</jar>
+	</target>
+
+
+	<target name="init" description="Prepares for building">
+		<mkdir dir="${build}" />
+	</target>
+
+	<target name="binaries" depends="init" description="Creates binaries">
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="no">
+			<classpath refid="class.path" />
+			<patternset id="java.files">
+				<include name="**/*.java" />
+			</patternset>
+		</javac>
+	</target>
+
+	<target name="clean" description="Removes previous build">
+		<delete verbose="true">
+			<fileset dir="${build}" />
+			<fileset dir="${basedir}" includes="${jar-name},${tarball-name}, ${zip-name}" />
+		</delete>
+	</target>
+
+	<target name="tarball" depends="dist-dir" description="Creates binary distribution (tarball)">
+		<tar compression="gzip" destfile="${tarball-name}">
+			<tarfileset dir="." prefix="${project-name}">
+				<include name="**" />
+				<exclude name="${src}/**" />
+			</tarfileset>
+		</tar>
+	</target>
+
+	<target name="zip" depends="dist-dir" description="Creates binary distribution (Zipped)">
+		<delete verbose="true" file="${zip-name}" />
+		<zip destfile="${zip-name}">
+			<tarfileset dir="." prefix="${project-name}">
+				<include name="**" />
+				<exclude name="${src}/**" />
+			</tarfileset>
+		</zip>
+	</target>
+
+	<target name="src-tarball" depends="" description="Builds source tarball">
+		<tar compression="gzip" destfile="${project-name}-src.tar.gz">
+			<tarfileset dir="${basedir}" prefix="${project-name}">
+				<include name="**" />
+				<exclude name="${build}/**" />
+				<exclude name="${bin}/**" />
+			</tarfileset>
+		</tar>
+	</target>
+
+	<target name="dist-jar" depends="jar" description="Builds distribution upon jar archive">
+		<tar compression="gzip" destfile="${tarball-name}">
+			<tarfileset dir=".">
+				<!--<include name="${standard-doc},${jar-name}"/>-->
+				<include name="${start-script-jar}" />
+			</tarfileset>
+			<tarfileset dir=".">
+				<include name="dat/*" />
+				<include name="${jar-name}" />
+			</tarfileset>
+			<filelist dir="." files="${standard.doc}" />
+		</tar>
+	</target>
+
+	<target name="dist-jar-zip" depends="jar" description="Builds distribution upon jar archive (Zipped)">
+		<delete verbose="true" file="${zip-name}" />
+		<zip destfile="${zip-name}">
+			<tarfileset dir=".">
+				<!--<include name="${standard-doc},${jar-name}"/>-->
+				<include name="${start-script-jar}" />
+			</tarfileset>
+			<tarfileset dir=".">
+				<include name="dat/*" />
+				<include name="${jar-name}" />
+			</tarfileset>
+			<filelist dir="." files="${standard.doc}" />
+		</zip>
+	</target>
+
+	<target name="zipclean" description="Deletes any zip files">
+		<delete verbose="true">
+			<fileset dir="${basedir}" includes="${zip-name}" />
+		</delete>
+	</target>
+
+</project>
