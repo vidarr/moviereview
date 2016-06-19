@@ -9,3 +9,7 @@ The CMS delivered within is not considered to be used for operational use but
 rather serves as a test environment for the editor.
 
 It is however fully functional.
+
+If you want to try it out, there is an instance of it running under
+
+https://ubeer.org/movies
