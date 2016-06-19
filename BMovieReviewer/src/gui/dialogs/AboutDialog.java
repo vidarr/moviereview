@@ -35,7 +35,7 @@ public class AboutDialog extends DisplayDialog<BufferedImage> {
     public static final int IMG_HEIGHT = 300;
     public static String INFO_TEXT = "<html><center><h2>" + Globals.APP_NAME + "  " + Globals.APP_VERSION + "</h2>" +
         Globals.COPYLEFT.replace("\n", "<br>") + "<p>" + 
-        "<br>Visit: <a href=\"http://savannah.nongnu.org/projects/bmoviereviewer/\">http://savannah.nongnu.org/projects/bmoviereviewer/</a>" +
+        "<br>Visit: <a href=\"https://github.com/vidarr/moviereview\">https://github.com/vidarr/moviereview</a>" +
         " to stay up to date.</center></html>";    
 
     public  AboutDialog(Component parent, BufferedImage img) {
